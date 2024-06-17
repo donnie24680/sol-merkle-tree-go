@@ -7,7 +7,7 @@ import (
 	"math"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/donnie24680/go-ethereum/crypto"
 )
 
 // MerkleTree implements a general purpose Merkle tree.

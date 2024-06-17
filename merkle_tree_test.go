@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/donnie24680/go-ethereum/common"
 )
 
 func TestGenerateTrieFromItems(t *testing.T) {
@@ -220,7 +220,7 @@ func TestMerkleProof(t *testing.T) {
 				padTo([]byte{60}, 32),
 			},
 			itemToProve: common.Hex2Bytes("beef3c198d933f7462412341b2cc6d0b12215af5adc803ad40dfe5f44a444e0f"),
-			wantErr: true,
+			wantErr:     true,
 		},
 	}
 	for _, tt := range tests {
