@@ -1,4 +1,4 @@
-module sol-merkle-tree-go
+module github.com/donnie24680/sol-merkle-tree-go
 
 go 1.21.3
 
